@@ -123,3 +123,64 @@ font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 20px;
 
 }
+
+.prices-section{
+    margin-top: 20px;
+    margin-left: 40px;
+    justify-content: space-between;
+}
+
+.last-section{
+    padding: 150px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.prices-header{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+    font-style: arial;
+    color: grey;
+}
+
+.free-price{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 50%;
+    width: 50%;
+    background: grey;
+    border: grey;
+    outline: grey;
+    border-radius: 10px;
+    color: white;
+    transition: all 0.3 ease;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.premium-price{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 50%;
+    width: 50%;
+    background-color: grey;
+    border: grey;
+    outline: grey;
+    border-radius: 10px;
+    color: white;
+    margin-left: 570px;
+
+}
