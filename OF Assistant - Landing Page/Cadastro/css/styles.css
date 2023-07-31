@@ -1,0 +1,283 @@
+
+.card h2 {
+ 
+    
+    width: 100%;    
+font-size: 28px;
+font-weight: bold;
+font-style: normal;
+color: #333;
+letter-spacing: 1px;
+height: 20vh;
+color: grey;
+
+      }
+
+      #contact-form label,
+      #contact-form input,
+      #contact-form textarea {
+          display: block;
+          padding: 5px;
+          border: 2px solid #f2ecec;
+          width: 95%;
+          color: #020202;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+          'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+      
+      #contact-form label {
+          color: #fffdfd;
+          font-weight: bold;
+         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+          'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+      
+      #contact-form input {
+          margin-bottom: 10px;
+      }
+      
+      #contact-form input::placeholder,
+      #contact-form textarea::placeholder {
+          color: #312a2a;
+      }
+
+    #contact-form input[type="submit"] {
+        background-color: #f5f6f6;
+        color: #15053a;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        width: 300px;
+        margin: 30px auto;
+        border: 2px solid transparent;
+        transition: .2s;
+     
+    }
+
+h3{
+    color: white;
+    text-align: center;
+    width: 350px;
+    margin: 20px auto;
+    padding: 20px;
+    font-size: 38px;
+    font-family: century gothic;
+}
+
+#linha-superior {
+
+    border: none;   
+    border-top: 1px solid #ccc;
+    margin: 0;
+   }
+
+body {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Cor de fundo da página */
+    font-size: 15px;
+  }
+
+  .container form {
+  
+    flex-direction: column;
+
+  }
+
+  label {
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"]{
+    margin-bottom: 10px;
+}
+input[type="password"]{
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"]{
+    font-size: 10;
+}
+
+input[type="value"]{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #05051e; /* Cor de fundo azul escura */
+    color: #fff;
+    text-align: center;
+    border-radius: 60px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    letter-spacing: 1.0px;
+    
+  }
+
+  .card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    background-color: #1c1a1a;
+    z-index: -1;
+    letter-spacing: 0.5px;
+    
+}
+  
+.card h2 {
+    font-size: 24px;
+    letter-spacing: 0;
+}
+   
+
+#main-container {
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+#form-container,
+#address-container {
+    flex: 1 1 100%;
+}
+
+#form-container {
+    order: -1;
+    padding: 20px;
+}
+
+#form-container h2 {
+    margin-bottom: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+
+    color:#fff;
+}
+
+
+
+#contact-form {
+    
+   
+    width: 100%;
+    color:#fefbfb;
+}
+
+#contact-form label, 
+#contact-form input, 
+#contact-form textarea {
+    border-color: #251b1b;
+    border-radius: 20px 20px 20px 20px;
+
+}
+
+
+.fade {
+    opacity: .9;
+}
+  
+ label h4{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+ }
+
+
+h4 {
+
+color: white;
+font-size: 11px;
+padding-top: 1px;
+margin-top: 1px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+h6 {
+
+    color: white;
+    font-size: 11px;
+    padding-top: 1px;
+    margin-top: 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+
+}
+
+#checkbox checkSalverSenha{
+
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+
+}
+
+h7 {  
+font-family: 'Lucida Sans', 'Lucida Sans Regular',
+ 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-size: 13px;
+ margin-top: 1px;
+ padding-top: 1px;
+
+}
+
+/* MOBILE */
+
+@media(max-width:450px) {
+
+    #main-container {
+        height: 100%;
+        flex-wrap: wrap;
+    }
+
+    #form-container,
+    #address-container {
+        flex: 1 1 100%;
+    }
+
+    #form-container {
+        order: -1;
+        padding: 20px;
+    }
+
+    #form-container h2 {
+        margin-bottom: 25px;
+    }
+
+    #contact-form {
+        width: 100%;
+    }
+
+    #contact-form label, 
+    #contact-form input, 
+    #contact-form textarea {
+        border-color: #AAA;
+    }
+
+    #address-container {
+        background-position: 0;
+        height: 500px;
+    }
+
+    .fade {
+        opacity: .9;
+    }
+
+    #address-content {
+        top: 25%;
+        left: 25%;
+    }
+
+}
+
