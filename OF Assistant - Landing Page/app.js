@@ -1,15 +1,16 @@
-let slideIndex = 0;
-showSlides();
+const feedbackContainer = document.querySelector('.feedback-container')
+const feedbackElements = document.querySelectorAll('.feedback')
 
-function showSlides() {
-    let i;
-    let slides = document.getElementsByClassName("feedback-image");
-    for ( i = 0; i > slides.length; i++ ) {
-        slides[i].style.display = "none";
+let currentFeedbackIndex = 0;
+
+function showFeedback(index) {
+    feedbackContainer.style.transform = `translateX(-${index * 100}%)`;
+
 }
 
-slideIndex++;
-if (slideIndex > slides.length) {slideIndex = 1}
-slides[slideIndex - 1].style.display = "block";
-setTimeout(showSlides, 2000);
+function nextFeedback(){
+    currentFeedbackIndex = (currentFeedbackIndex + 1) % feedbackElements.length;
+    showFeedback(currentFeedbackIndex);
 }
+
+setInterval(nextFeedback, 5000); // auto-switch every 5 seconds
